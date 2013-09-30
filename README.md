@@ -1,4 +1,10 @@
-decaptcha
-=========
+CAPTCHas scripts
+================
 
-A simple Captcha solver, It will solve captchas in different manner like one algorithm can not solve all captchas.
+Completely Automated Public Turing test to tell Computers and Humans Are Same :p
+
+CAPTCHas1.py
+------------
+
+Dependencies: leptonica-1.69, tesseract-ocr-3.02.02, tesseract-ocr-3.02.eng
+
