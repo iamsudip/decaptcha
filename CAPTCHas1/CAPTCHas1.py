@@ -18,7 +18,7 @@ captcha = usrimg.convert('L', (.4, .4, .4, 0))
 # Removing all shades lighter than a given value(107)
 for x in range(captcha.size[1]):
     for y in range(captcha.size[0]):
-        if captcha.getpixel((y,x)) > 400:
+        if captcha.getpixel((y,x)) > 107:
             captcha.putpixel((y,x),255)
 
 # Saving the image as tesseract can read.
