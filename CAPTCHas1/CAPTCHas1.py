@@ -3,6 +3,14 @@
 CAPTCHas = Completely Automated Public Turing test to tell Computers and Humans Are Same.
 Flipkart.com - the online mega store's captchas are not solid.
 Flipkart.com captcha solver.
+
+Execution:
+$ python CAPTCHas1.py test10.jpeg
+$
+
+Execution will creat two files named temp.bmp and data.txt.
+temp.bmp: Temporary image file to extract data with tesseract-ocr after image processing with PIL
+data.txt: File to save the solved captcha value
 '''
 
 from PIL import Image
