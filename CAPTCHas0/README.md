@@ -1,5 +1,5 @@
 ----------------------------------------
-Captchas0.py - dlldll.com captcha solver
+CAPTCHas0.py - dlldll.com captcha solver
 ----------------------------------------
 
 Accuracy: 0/2
