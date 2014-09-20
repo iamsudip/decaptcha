@@ -8,7 +8,7 @@ Execution:
 $ python CAPTCHas1.py test10.jpeg
 $
 
-Execution will creat two files named temp.bmp and data.txt.
+Execution will create two files named temp.bmp and data.txt.
 temp.bmp: Temporary image file to extract data with tesseract-ocr after image processing with PIL
 data.txt: File to save the solved captcha value
 '''
@@ -41,4 +41,4 @@ with open('data.txt', 'r') as data:
     print data.readline().strip()
 
 # Removing temporary files
-os.remove('temp.bmp')
+#os.remove('temp.bmp')
