@@ -21,7 +21,6 @@ usrimg = Image.open(sys.argv[1])
 # Removing background noise.
 # Converting the image to greyscale.
 captcha = usrimg.convert('1')
-captcha.show()
 
 # Saving the image as tesseract can read.
 captcha.save('temp.bmp', dpi=(200,200))

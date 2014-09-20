@@ -3,9 +3,6 @@ CAPTCHas scripts
 
 Completely Automated Public Turing test to tell Computers and Humans Are Same :p
 
-CAPTCHas1.py - Flipkart.com captcha solver
-------------------------------------------
-
 Dependencies:: 
 
     libleptonica, libtesseract3, libwebp2, tesseract-ocr,
@@ -17,9 +14,10 @@ For debian user::
 
 This will install all the dependencies.
 
-Run it as ::
-
-    $ python CAPTCHas1.py test1.jpeg
-
 The solved captcha data will be saved into same as pwd in data.txt. (y)
+
+*Captchas0.py - dlldll.com captcha solver*
+
+*CAPTCHas1.py - Flipkart.com captcha solver*
+
 
