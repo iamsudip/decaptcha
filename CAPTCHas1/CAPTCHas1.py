@@ -14,6 +14,7 @@ data.txt: File to save the solved captcha value
 '''
 
 from PIL import Image
+import os
 import sys
 import commands
 
@@ -34,3 +35,10 @@ captcha.save('temp.bmp', dpi=(200,200))
 
 # Getting the output
 commands.getoutput('tesseract temp.bmp data')
+
+# Reading ocr generated output
+with open('data.txt', 'r') as data:
+    print data.readline().strip()
+
+# Removing temporary files
+os.remove('temp.bmp')
