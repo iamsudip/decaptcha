@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Decaptcha by iamsudip</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Decaptcha</h1>
+        <h2>Decode certain type of captchas using python</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/iamsudip/decaptcha/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/iamsudip/decaptcha/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/iamsudip/decaptcha" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="captchas-scripts-scripts-to-decode-captchas" class="anchor" href="#captchas-scripts-scripts-to-decode-captchas"><span class="octicon octicon-link"></span></a>CAPTCHas scripts (Scripts to decode captchas)</h1>
+
+<p>Completely Automated Public Turing test to tell Computers and Humans Are Same :p</p>
+
+<p>Dependencies:: </p>
+
+<pre><code>libleptonica, libtesseract3, libwebp2, tesseract-ocr,
+tesseract-ocr-eng, tesseract-ocr-equ, tesseract-ocr-osd
+</code></pre>
+
+<p>For debian user::</p>
+
+<pre><code>$ sudo apt-get install tesseract-ocr
+</code></pre>
+
+<p>This will install all the dependencies.</p>
+
+<p>The solved captcha data will be saved into same as pwd in data.txt. (y)</p>
+
+<ul>
+<li>CAPTCHas0.py - dlldll.com captcha solver</li>
+</ul>
+
+<p>Images taken form dlldll.com for testing::</p>
+
+<p><img src="https://raw.githubusercontent.com/iamsudip/decaptcha/master/CAPTCHas0/test0.jpg" alt=""></p>
+
+<p>Accuracy: 0/2</p>
+
+<p>Run it as ::</p>
+
+<pre><code>$ python CAPTCHas0.py test0.jpeg
+</code></pre>
+
+<p>The solved captcha data will be saved into same as pwd in data.txt. (y)</p>
+
+<ul>
+<li>CAPTCHas1.py - Flipkart.com captcha solver</li>
+</ul>
+
+<p>Example images taken from Flipkart website for testing:</p>
+
+<p><img src="https://raw.githubusercontent.com/iamsudip/decaptcha/master/CAPTCHas1/test10.jpeg" alt=""></p>
+
+<p><img src="https://raw.githubusercontent.com/iamsudip/decaptcha/master/CAPTCHas1/test9.jpeg" alt=""></p>
+
+<p>Accuracy: 9/10</p>
+
+<p>Run it as ::</p>
+
+<pre><code>$ python CAPTCHas1.py test1.jpeg
+</code></pre>
+
+<p>The solved captcha data will be saved into same as pwd in data.txt. (y)</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
